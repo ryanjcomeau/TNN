@@ -1,3 +1,16 @@
+# make sure python installed
+#set up virtual env:
+   # python3 -m venv .venv 
+    #source .venv/bin/activate
+#install packages:
+    #pip install requests beautifulsoup4 openai schedule python-dotenv
+#create files:
+    #├── .venv/                  # virtual environment
+    #├── .env                    # (store your API keys here)
+    #├── fitness_blog_bot.py     # (main script)
+    #├── README.md               # optional
+
+
 import os
 import requests
 from bs4 import BeautifulSoup
